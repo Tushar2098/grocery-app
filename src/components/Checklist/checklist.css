@@ -1,0 +1,30 @@
+.checklist-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.checklist-container .form-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-group input {
+  width: 50%;
+}
+
+.checklist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0;
+}
+
+.checklist-items li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input[type='checkbox']:checked + label {
+  text-decoration: line-through;
+}
